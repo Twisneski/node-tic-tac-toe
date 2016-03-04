@@ -1,0 +1,21 @@
+{
+  "name": "nodechat",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Christina Wisneski <tina.wisneski525@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Twisneski/node-tic-tac-toe",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "^1.4.5"
+  }
+}
