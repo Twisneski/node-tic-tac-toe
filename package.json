@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Twisneski/node-tic-tac-toe/issues"
   },
- "homepage": "https://github.com/Twisneski/nodechat#readme",
+  "homepage": "https://github.com/Twisneski/nodechat#readme",
   "devDependencies": {
     "bower": "^1.7.7",
     "nodemon": "^1.9.1",

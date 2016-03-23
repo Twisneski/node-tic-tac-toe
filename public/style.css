@@ -1,0 +1,62 @@
+body {
+  background-color: #ebf6f9;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 1s;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+
+#gameBoard {
+  margin: 0 auto;
+  width: 472px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #777;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.row {
+  line-height: 0.7em;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+#box1,
+#box3,
+#box5,
+#box7,
+#box9 {
+  background-color: blue;
+}
+
+#box2,
+#box4,
+#box6,
+#box8 {
+  background-color: yellow;
+}
